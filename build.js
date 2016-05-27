@@ -379,6 +379,7 @@
 	        bridge.forget(id);
 	      });
 	      this.on('setSelection', function (data) {
+	      	alert('!');
 	        return bridge.send('select', data);
 	      });
 	    }
